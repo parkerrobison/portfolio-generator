@@ -31,7 +31,8 @@ const [name, github] = profileDataArgs;
 
 // multi line code. Put 'return' wherever you would like a line break to occur.
 
-
+//these lines of code will write a file using the filesystem module. 
+// the first parameter is the file name, the second is data, and the third  handles any errors.
 fs.writeFile('index.html', generatePage(name, github), err => {
     if (err) throw err;
 
