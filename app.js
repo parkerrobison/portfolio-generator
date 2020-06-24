@@ -1,4 +1,5 @@
 const fs = require('fs');
+// this statement the object in module.exports assignment will be reassigned to this variable.
 const generatePage = require('./src/page-template.js'); 
 
 const profileDataArgs = process.argv.slice(2, process.argv.length);

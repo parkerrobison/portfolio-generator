@@ -17,4 +17,5 @@ const generatePage = (name, github) => {
     `;
 };
 
+//module.exports makes this function available on other files.
 module.exports = generatePage;
